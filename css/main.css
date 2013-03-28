@@ -4,6 +4,10 @@ body {
     padding-bottom: 60px;
 }
 
+p {
+    line-height: 1.25;
+}
+
 .container {
     margin: 0 auto;
     max-width: 1000px;
@@ -19,9 +23,9 @@ body {
 }
 .jumbotron .lead {
     font-size: 24px;
-    line-height: 1.25;
 }
 .jumbotron .btn {
     font-size: 21px;
     padding: 14px 24px;
 }
+
