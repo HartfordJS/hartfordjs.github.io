@@ -18,6 +18,10 @@ hr {
     width: 700px;
 }
 
+img {
+    border: none;
+}
+
 .container {
     margin: 0 auto;
     max-width: 800px;
