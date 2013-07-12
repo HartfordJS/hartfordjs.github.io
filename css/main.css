@@ -42,3 +42,7 @@ hr {
 .social-media-links a {
     text-decoration: none;
 }
+
+.lead {
+    font-weight: bold;
+}
