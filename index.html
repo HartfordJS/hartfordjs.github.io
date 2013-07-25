@@ -18,8 +18,6 @@ title: hartfordjs
 
     <hr>
     
-    {{site.url}}
-    
     {% for post in site.posts %}
         <p class="lead">
           	{{ post.title }}
@@ -29,11 +27,7 @@ title: hartfordjs
             at <a target="_blank" href="{{ post.venue_url }}">{{ post.venue }}</a> in {{ post.city }}
         </p>
     
-        <p>{{ post.content }}</p>
-        
-        <p>
-            Please <a target="_blank" href="{{ post.signup_url }}">RSVP</a>!</p>
-        </p>
+        {{ post.content }}
     
         <hr>
     {% endfor %}
