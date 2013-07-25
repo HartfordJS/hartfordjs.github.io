@@ -11,4 +11,3 @@ city: Manchester
 This month we are switching it up and doing a hack night.
 Instead of presentations, we'll be packing our laptops
 and working on projects in small groups.
-Please [RSVP](http://hartfordjs.eventbrite.com)!
