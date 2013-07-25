@@ -1,100 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>HartfordJS</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+---
+layout: default
+title: hartfordjs
+---
 
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Press+Start+2P">
-    <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/font-awesome/3.2.0/css/font-awesome.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-</head>
-
-<body>
-
-<div class="container">
+<!-- Jumbotron -->
+<div class="jumbotron">
+    <h1>HartfordJS</h1>            
     
-    <!-- Jumbotron -->
-    <div class="jumbotron">
-        <h1>HartfordJS</h1>            
-        
-        <p class="social-media-links">
-            <a href="http://hartfordjs.eventbrite.com" target="_blank"><img src="img/eventbrite.png"></a>
-            <a href="http://github.com/hartfordjs" target="_blank"><i class="icon-github"></i></a>
-            <a href="http://twitter.com/hartfordjs" target="_blank"><i class="icon-twitter"></i></a>
-            <a href="https://plus.google.com/communities/100536411944298096268" target="_blank"><i class="icon-google-plus"></i></a>       
+    <p class="social-media-links">
+        <a href="http://hartfordjs.eventbrite.com" target="_blank"><img src="img/eventbrite.png"></a>
+        <a href="http://github.com/hartfordjs" target="_blank"><i class="icon-github"></i></a>
+        <a href="http://twitter.com/hartfordjs" target="_blank"><i class="icon-twitter"></i></a>
+        <a href="https://plus.google.com/communities/100536411944298096268" target="_blank"><i class="icon-google-plus"></i></a>       
+    </p>
+    <p>Join our <a href="https://groups.google.com/group/hartfordjs" target="_blank">mailing list</a>, or email<br>
+        <span id="email"></span> with any questions.</p>
+
+    <hr>
+    
+    {% for post in site.posts %}
+        <p class="lead">
+          	{{ post.title }}
         </p>
-        <p>Join our <a href="https://groups.google.com/group/hartfordjs" target="_blank">mailing list</a>, or email<br>
-            <span id="email"></span> with any questions.</p>
-
+    
+        <p>{{ post.time }} on {{ post.date }}<br>
+            at <a target="_blank" href="{{ post.venue_url }}">post.venue</a> in {{ post.city }}
+        </p>
+    
+        <p>{{ post.text }}</p>
+        
+        <p>
+            Please <a target="_blank" href="{{ post.signup_url }}">RSVP</a>!</p>
+        </p>
+    
         <hr>
-        
-        <p class="lead">July 2013 Hack Night</p>
-        
-        <p>5:30pm on Wed July 24, 2013<br>
-            at <a target="blank" href="http://axis901.com">Axis901</a> in Manchester</p>
-        
-        <p>This month we are switching it up and doing a hack night.
-            Instead of presentations, we'll be packing our laptops
-            and working on projects in small groups.
-            Please <a target="blank" href="http://hartfordjs.eventbrite.com">RSVP</a>!</p>
-        
-        <hr>
-        
-        <p class="lead">June 2013 Meeting</p>
-        
-        <p>5:30/7pm on Tue June 18, 2013<br>
-            at <a target="blank" href="http://ccat.us">CCAT</a> in East Hartford</p>
-        
-        <p>We're partnering with the ACM folks to hear about local tech businesses at 5:30pm.
-            At 7pm we'll switch over to JS and hear some lightning talks.
-            The presentations are linked below.</p>
-            
-        <p><a href="http://justinbabey.com/presentations/jsDeferreds.html">Deferreds & Promises</a> w/ Justin Babey<br>
-           <a href="http://slid.es/jtenner/nodejs-getting-started">Node.js: Getting Started</a> w/ Joshua Tenner<br>
-           <a href="http://slid.es/willklein/template-engines-in-5-minutes">Template Engines</a> w/ Will Klein<br>
-           <a href="http://scott.sauyet.com/Javascript/Talk/Compose/">Functional Javascript</a> w/ Scott Sauyet<br>
-           <a href="http://gruntjs.com">Grunt</a> w/ Ryan Sylvestre</p>
-        
-        <hr>
-        
-        <p class="lead">April 2013 Meeting</p>
-            
-        <p>6:30pm on Thu April 18, 2013<br>
-            at Wethersfield Public Library</p>        
+    {% endfor %}
 
-        <p>We introduced HartfordJS and hosted five lightning talks.
-            The presentations are linked below.</p>
-        
-        <p><a href="http://www.rvl.io/willklein/hartfordjs-intro">Intro</a> w/ Will Klein<br>
-           <a href="http://justinbabey.com/presentations/jsNamespacePatterns.html">Namespacing</a> w/ Justin Babey<br>
-           <a href="http://prathamesh.satpute.me/presentations/requirejs">RequireJS</a> w/ Prathamesh Satpute<br>
-           <a href="https://rawgithub.com/AutoSponge/presentation/master/maintainability.html">JS Maintainability</a> w/ Paul Grenier<br>
-           <a href="https://rawgithub.com/buzzdecafe/pres/master/fp5.html">Scheme in 10 Lines of JS</a> w/ Mike Hurley<br>
-           <a href="http://ryansylvestre.github.io/presentations/source-maps/">Source Maps</a> w/ Ryan Sylvestre<br>
-           <a href="http://www.rvl.io/willklein/hartfordjs-outro">Outro</a> w/ Will Klein</p>
-            
-    </div>
-</div> <!-- /container -->
-
-<a href="https://github.com/hartfordjs"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
-
-<script type="text/javascript" src="js/main.js"></script>
-
-<script type="text/javascript">
-
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-39793877-1']);
-    _gaq.push(['_setDomainName', 'hartfordjs.com']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-
-</script>
-</body>
-</html>
+</div>
