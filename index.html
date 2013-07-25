@@ -25,11 +25,11 @@ title: hartfordjs
           	{{ post.title }}
         </p>
     
-        <p>{{ post.time }} on {{ post.date }}<br>
-            at <a target="_blank" href="{{ post.venue_url }}">post.venue</a> in {{ post.city }}
+        <p>{{ post.time }} on {{ post.date | date: "%B %d %Y" }}<br>
+            at <a target="_blank" href="{{ post.venue_url }}">{{ post.venue }}</a> in {{ post.city }}
         </p>
     
-        <p>{{ post.text }}</p>
+        <p>{{ post.content }}</p>
         
         <p>
             Please <a target="_blank" href="{{ post.signup_url }}">RSVP</a>!</p>
