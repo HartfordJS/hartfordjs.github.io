@@ -1,13 +1,15 @@
 ---
 layout: post
-title: August 2013 Meeting
-date: Tue August 27, 2013
+title: September 2013 Meeting
+date: Tue September 25, 2013
 time: 5:30pm
 venue: Axis901
 venue_url: http://axis901.com
 city: Manchester
 ---
 
-We're back for another round! We'll do one or two presentations (TBD), wrapped with awesome conversation as usual.
+Noted functional expert and author @buzzdecafe will be headlining tonight's @HartfordJS.
+
+Already famous for his mini-Scheme implementation in Javascript, he helped build, not one, but two of the most stupendously popular functional programming libraries used today.  Yes, this is the man behind both Eweda and Ramda!  But not content to rest on his laurels, buzzdecafe went on to take the Erlang world by storm and is now reinventing gaming on the mobile phone.
  
-Food will be served, and we're returning to Axis901 for the 2nd month straight.
+Food will be served, and we're returning to Axis901 for the 3rd month straight.
