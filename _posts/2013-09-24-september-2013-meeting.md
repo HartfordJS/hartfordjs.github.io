@@ -1,7 +1,7 @@
 ---
 layout: post
 title: September 2013 Meeting
-date: Tue September 25, 2013
+date: Tue September 24, 2013
 time: 5:30pm
 venue: Axis901
 venue_url: http://axis901.com
