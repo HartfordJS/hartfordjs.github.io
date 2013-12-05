@@ -8,8 +8,3 @@ venue_url: http://axis901.com
 city: Manchester
 ---
 
-Scott Sauyet, functional programming enthusiast and Javascript expert will be headlining this month's @HartfordJS! 
-
-He will be doing a talk on Functional Programming in Javascript that none of you will want to miss! 
-
-Food will be served, and we're returning to Axis901's great facilities again this month.
