@@ -7,9 +7,7 @@ venue: Axis901
 venue_url: http://axis901.com
 city: Manchester
 ---
-This month's meeting will feature a talk on Functional Programming in Javascript delivered by Scott Sauyet.
-
-[RSVP!](hartfordjs.eventbrite.com)
+This month's meeting will feature a talk on Functional Programming in Javascript delivered by Scott Sauyet. [RSVP](http://hartfordjs.eventbrite.com)!
 
 If you don't know Scott, here is a brief bio:
 
