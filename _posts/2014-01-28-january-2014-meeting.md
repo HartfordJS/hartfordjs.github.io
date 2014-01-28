@@ -9,6 +9,8 @@ city: Manchester
 ---
 This month's meeting will feature a talk on Functional Programming in Javascript delivered by Scott Sauyet.
 
+[RSVP!](hartfordjs.eventbrite.com)
+
 If you don't know Scott, here is a brief bio:
 
 "Scott Sauyet has been programming 15 years, in recent years focusing on Javascript on both the client and server.  A big fan of functional programming, he is currently working on a functional programming library for Javascript." 
