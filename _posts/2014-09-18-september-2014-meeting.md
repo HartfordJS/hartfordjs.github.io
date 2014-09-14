@@ -2,17 +2,19 @@
 layout: post
 title: September 2014 Meeting
 date: Thu September 18, 2014
-time: 6:00pm
-venue: Axis 901
-venue_url: http://axis901.com
-city: Manchester
+time: 6:30pm
+venue: Stilts Building
+venue_url: http://www.cbre.us/o/hartford/properties/20-church-street/pages/property-overview.aspx
+city: Hartford
 ---
 
-Come hear Scott Sauyet and Michael Hurley, creators of the [Ramda](https://github.com/CrossEye/ramda) functional programming library, talk about the rapid transition from a fun project to the role of "library maintainer". We may all build small projects and share, not knowing what it would be like if they gain rapid popularity. 
+HartfordJS will be suspending our regularly scheduled programming to do a combined meeting with the Connecticut Java Users Group! Come here Reza Rahman, Java EE/GlassFish evangelist, talk about [Using Javascript Rich Clients with Java EE](http://www.slideshare.net/reza_rahman/javaee-javascript). You can find more from Reza on his [blog](https://blogs.oracle.com/reza/).
 
-Mike will also be doing a talk [Applicatives](http://buzzdecafe.github.io/code/2014/08/12/applicatives-ramda-style/) and other algebraic types. 
+Following Reza's talk, our own Michael Hurley, c0-creator of the [Ramda](https://github.com/CrossEye/ramda) functional programming library, will be doing a talk [Applicatives](http://buzzdecafe.github.io/code/2014/08/12/applicatives-ramda-style/) and other algebraic types. 
 
-See some of Mike's work and/or musings on [Twitter](https://twitter.com/buzzdecafe) and his [GitHub](http://buzzdecafe.github.io/) blog. More of Scott can be found at his [GitHub](https://github.com/CrossEye) page. 
+See some of Mike's work and/or musings on [Twitter](https://twitter.com/buzzdecafe) and his [GitHub](http://buzzdecafe.github.io/) blog. 
 
 Invite your friends and please RSVP at [Eventbrite](https://www.eventbrite.com/e/hartfordjs-september-2014-tickets-12993671421)!
+
+**Please Note: The location for this meeting is the Stilts building in Hartford. We will not be meeting at Axis901 this month!
 
