@@ -10,7 +10,7 @@ city: Hartford
 
 HartfordJS will be suspending our regularly scheduled programming to do a combined meeting with the Connecticut Java Users Group! Come hear Reza Rahman, Java EE/GlassFish evangelist, talk about [Using Javascript Rich Clients with Java EE](http://www.slideshare.net/reza_rahman/javaee-javascript). You can find more from Reza on his [blog](https://blogs.oracle.com/reza/).
 
-Following Reza's talk, our own Michael Hurley, c0-creator of the [Ramda](https://github.com/CrossEye/ramda) functional programming library, will be doing a talk [Applicatives](http://buzzdecafe.github.io/code/2014/08/12/applicatives-ramda-style/) and other algebraic types. 
+Following Reza's talk, our own Michael Hurley, co-creator of the [Ramda](https://github.com/CrossEye/ramda) functional programming library, will be doing a talk [Applicatives](http://buzzdecafe.github.io/code/2014/08/12/applicatives-ramda-style/) and other algebraic types. 
 
 See some of Mike's work and/or musings on [Twitter](https://twitter.com/buzzdecafe) and his [GitHub](http://buzzdecafe.github.io/) blog. 
 
